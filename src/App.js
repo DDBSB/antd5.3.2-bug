@@ -90,9 +90,7 @@ function App() {
       <Popover key={"filter"} content={content} trigger={"click"} placement="bottomLeft" open={open}
                onOpenChange={(bool) => setOpen(bool)}>
         <Tooltip title={"高级筛选"}>
-          <Button type="text"
-                  icon={<FilterOutlined/>}>
-          </Button>
+          <Button type="text" icon={<FilterOutlined/>}></Button>
         </Tooltip>
       </Popover>
     </header>
